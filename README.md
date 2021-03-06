@@ -4,27 +4,27 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
+[![License][license-shield]][license-url]
 
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
 - [About](#about)
-  - [Do I recommend](#do-i-recommend)
+  - [Do I Recommend](#do-i-recommend)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Installation](#installation)
     - [Using Git](#using-git)
     - [Manuel](#manuel)
 - [Usage](#usage)
-  - [An Option for Only Windows](#an-option-for-only-windows)
+  - [Option for Only Windows](#an-option-for-only-windows)
   - [On Windows, macOS and Linux](#on-windows-macos-and-linux)
 - [License](#license)
 
 ## About
-A simple and impressive macro, coded with Python 3.9.1!
+A simple and impressive macro, made with Python 3.9.1!
 ### Do I Recommend
-Remember that this will give you unfair power. You are free to use it, but the responsibility is yours. Note that using "pycro" may be prohibited and you may be punished for using it.
+Remember, this will give you unfair power. You are free to use it, but the responsibility is yours. Using "pycro" may be prohibited and you may be punished for using it.
 
 ## Getting Started
 Pycro has been kept as customizable as possible. You will be able to set the following after starting pycro:
@@ -42,17 +42,19 @@ Pycro has been kept as customizable as possible. You will be able to set the fol
 ```shell
 git clone https://github.com/MustafaTRK/pycro
 ```
-#### Manuel
+#### Manually
 [GitHub Archive](https://github.com/MustafaTRK/pycro/archive/main.zip)
 
 ## Usage
-### An Option for Only Windows
-You can use the [scripts](https://github.com/MustafaTRK/pycro/blob/main/scripts) prepared for you or follow the steps in the other option.
+### Option for Only Windows
+You can use [these scripts](https://github.com/MustafaTRK/pycro/blob/main/scripts) prepared for you or follow the steps in the other option.
 ### On Windows, macOS and Linux
-1. If you haven't installed the pynput library, install it:
+1. If you haven't installed the pynput library, install it with:
 ```shell
 # Windows and macOS
 pip install pynput
+# If pip not added to path
+python -m pip install pynput
 
 # Linux
 # Install python3-pip if not installed.
