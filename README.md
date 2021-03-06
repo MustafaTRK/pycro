@@ -17,8 +17,7 @@
     - [Using Git](#using-git)
     - [Manually](#manually)
 - [Usage](#usage)
-  - [Option for Only Windows](#an-option-for-only-windows)
-  - [On Windows, macOS and Linux](#on-windows-macos-and-linux)
+  - [Option for Only Windows](#windows-option)
 - [License](#license)
 
 ## About
@@ -46,7 +45,7 @@ git clone https://github.com/MustafaTRK/pycro
 [GitHub Archive](https://github.com/MustafaTRK/pycro/archive/main.zip)
 
 ## Usage
-<details>
+<details id="windows-option">
   <summary>Option for Only Windows</summary>
 
   You can use [these scripts](https://github.com/MustafaTRK/pycro/blob/main/scripts) prepared for you or follow the steps in the other option.
