@@ -3,7 +3,7 @@ try:
   from pynput.keyboard import KeyCode, Listener, Key
   from pynput.mouse import Button, Controller
 except ImportError as error:
-  raise ImportError("'pynput' not found in modules! Please install 'pynput'")
+  raise ImportError("'pynput' library not found! Please install it and try again.")
 
 class pycro(threading.Thread):
   def __init__(self, cps, button, limit):
@@ -68,7 +68,7 @@ if __name__ == '__main__':
   clear()
 
   print("How many clicks will it stop after it starts clicking?")
-  limitRaw = input("Limit (Only integers, typing 0 for unlimited): ")
+  limitRaw = input("Limit (Only integers, type 0 for unlimited): ")
   try:
     limit = int(limitRaw)
   except ValueError as error:
@@ -79,7 +79,7 @@ if __name__ == '__main__':
   clear()
 
   print("Which button will the macro click on? (l = left, r = right, m ​​= middle)")
-  buttonRaw = input("Key (Only l = left or r = right or m ​​= middle): ")
+  buttonRaw = input("Key (Only l = left, r = right or m ​​= middle): ")
   if (buttonRaw == "l" or buttonRaw == "left"):
     buttonRaw = "Left"
     button = Button.left  
@@ -114,7 +114,7 @@ if __name__ == '__main__':
   print(
     """
       CPS: {cps}
-      Aktive/Deaktive Key: {toggleKey}
+      Switch Key: {toggleKey}
       Clicking Limit: {limit}
       Selected Mouse Button: {mouseButton}
       Exit Key: {exitKey}
