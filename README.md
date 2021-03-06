@@ -15,7 +15,7 @@
   - [Requirements](#requirements)
   - [Installation](#installation)
     - [Using Git](#using-git)
-    - [Manuel](#manuel)
+    - [Manually](#manually)
 - [Usage](#usage)
   - [Option for Only Windows](#an-option-for-only-windows)
   - [On Windows, macOS and Linux](#on-windows-macos-and-linux)
@@ -24,7 +24,7 @@
 ## About
 A simple and impressive macro, made with Python 3.9.1!
 ### Do I Recommend
-Remember, this will give you unfair power. You are free to use it, but the responsibility is yours. Using "pycro" may be prohibited and you may be punished for using it.
+Remember, this will give you unfair advantage. You are free to use it, but the responsibility is yours. Using pycro may be prohibited and you may be punished for using it.
 
 ## Getting Started
 Pycro has been kept as customizable as possible. You will be able to set the following after starting pycro:
@@ -46,9 +46,12 @@ git clone https://github.com/MustafaTRK/pycro
 [GitHub Archive](https://github.com/MustafaTRK/pycro/archive/main.zip)
 
 ## Usage
-### Option for Only Windows
-You can use [these scripts](https://github.com/MustafaTRK/pycro/blob/main/scripts) prepared for you or follow the steps in the other option.
-### On Windows, macOS and Linux
+<details>
+  <summary>Option for Only Windows</summary>
+
+  You can use [these scripts](https://github.com/MustafaTRK/pycro/blob/main/scripts) prepared for you or follow the steps in the other option.
+</details>
+
 1. If you haven't installed the pynput library, install it with:
 ```shell
 # Windows and macOS
@@ -57,8 +60,9 @@ pip install pynput
 python -m pip install pynput
 
 # Linux
-# Install python3-pip if not installed.
 pip3 install pynput
+# If python3-pip is not installed
+python3 -m pip install pynput
 ```
 2. Go to the directory where the "src" folder is.
 3. Use the following command to start pycro using python:
@@ -72,7 +76,7 @@ python3 src/pycro.py
 5. Now pycro is running, enjoy yourself ;)
 
 ## License
-Pycro is available under the [MIT license](https://opensource.org/licenses/MIT). Pycro also includes external libraries that are available under a variety of licenses. See [LICENSE][license-url] for the full license text.
+Pycro is available under the [MIT license](https://opensource.org/licenses/MIT). See [LICENSE][license-url] for the full license text.
 
 [forks-shield]: https://img.shields.io/github/forks/MustafaTRK/pycro.svg?style=flat-square
 [forks-url]: https://github.com/MustafaTRK/pycro/network/members
