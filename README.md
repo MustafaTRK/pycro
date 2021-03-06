@@ -36,7 +36,7 @@ Pycro has been kept as customizable as possible. You will be able to set the fol
 ### Requirements
 [Python 3](https://www.python.org/downloads/ "Recommended: Python 3.9 or above") <br>
 [pynput library](https://pypi.org/project/pynput/ "Recommended: pynput 1.7.3 or above") <br>
-[Git](https://git-scm.com/downloads "Recommended: Git 2.30.1 or above")
+[Git](https://git-scm.com/downloads "Recommended: Git 2.30.1 or above") (Optional)
 ### Installation
 #### Using Git
 ```shell
