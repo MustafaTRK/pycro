@@ -22,7 +22,7 @@
 - [License](#license)
 
 ## About
-A simple and impressive macro, coded using Python 3.9.1!
+A simple and impressive macro, coded with Python 3.9.1!
 ### Do I Recommend
 Remember that this will give you unfair power. You are free to use it, but the responsibility is yours. Note that using "pycro" may be prohibited and you may be punished for using it.
 
@@ -40,8 +40,6 @@ Pycro has been kept as customizable as possible. You will be able to set the fol
 ### Installation
 #### Using Git
 ```shell
-mkdir pycro
-cd pycro
 git clone https://github.com/MustafaTRK/pycro
 ```
 #### Manuel
@@ -51,22 +49,28 @@ git clone https://github.com/MustafaTRK/pycro
 ### An Option for Only Windows
 You can use the [scripts](https://github.com/MustafaTRK/pycro/blob/main/scripts) prepared for you or follow the steps in the other option.
 ### On Windows, macOS and Linux
-1. If you still haven't downloaded the pynput library, download it:
+1. If you haven't installed the pynput library, install it:
 ```shell
+# Windows and macOS
 pip install pynput
-#or
-python -m pip install pynput
+
+# Linux
+# Install python3-pip if not installed.
+pip3 install pynput
 ```
 2. Go to the directory where the "src" folder is.
 3. Use the following command to start pycro using python:
 ```shell
+# Windows and macOS
 python src/pycro.py
+# Linux
+python3 src/pycro.py
 ```
 4. Answer the questions asked to you according to your wishes.
 5. Now pycro is running, enjoy yourself ;)
 
 ## License
-pycro is available under the [MIT license](https://opensource.org/licenses/MIT). pycro also includes external libraries that are available under a variety of licenses. See [LICENSE][license-url] for the full license text.
+Pycro is available under the [MIT license](https://opensource.org/licenses/MIT). Pycro also includes external libraries that are available under a variety of licenses. See [LICENSE][license-url] for the full license text.
 
 [forks-shield]: https://img.shields.io/github/forks/MustafaTRK/pycro.svg?style=flat-square
 [forks-url]: https://github.com/MustafaTRK/pycro/network/members
