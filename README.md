@@ -59,9 +59,8 @@ pip install pynput
 python -m pip install pynput
 
 # Linux
+# Install python-pip3 if its not installed.
 pip3 install pynput
-# If python3-pip is not installed
-python3 -m pip install pynput
 ```
 2. Go to the directory where the "src" folder is.
 3. Use the following command to start pycro using python:
